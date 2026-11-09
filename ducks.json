@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Giant Duck",
-    "image": "imagens/",
+    "image": "images/pato1.png",
     "class": "Classic",
     "quantity": 1,
     "date": "01-01-2000"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "Hippie Couple Ducks",
-    "image": "imagens/",
+    "image": "images/pato1.png",
     "class": "Activity",
     "quantity": 1,
     "date": "01-01-2000"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "Car Duck",
-    "image": "imagens/",
+    "image": "images/pato1.png",
     "class": "Miscellaneous",
     "quantity": 1,
     "date": "01-01-2000"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "Pink Love Duck",
-    "image": "imagens/",
+    "image": "images/pato1.png",
     "class": "Theme",
     "quantity": 2,
     "date": "01-01-2000"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "Love Duck",
-    "image": "imagens/",
+    "image": "images/pato1.png",
     "class": "Theme",
     "quantity": 1,
     "date": "01-01-2000"
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "name": "Surfer Duck",
-    "image": "imagens/",
+    "image": "images/pato1.png",
     "class": "Activity",
     "quantity": 1,
     "date": "01-01-2000"
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "name": "Porcelane Bundle Ducks",
-    "image": "imagens/",
+    "image": "images/pato1.png",
     "class": "Different Materials",
     "quantity": 1,
     "date": "01-01-2000"
@@ -58,7 +58,7 @@
   {
     "id": 8,
     "name": "Greek Knight Duck",
-    "image": "imagens/",
+    "image": "images/pato1.png",
     "class": "Professions & History",
     "quantity": 1,
     "date": "01-01-2000"
@@ -66,7 +66,7 @@
   {
     "id": 9,
     "name": "Einstein Duck",
-    "image": "imagens/",
+    "image": "images/pato1.png",
     "class": "Professions & History",
     "quantity": 1,
     "date": "01-01-2000"
@@ -74,7 +74,7 @@
   {
     "id": 10,
     "name": "Chainsaw Man Duck",
-    "image": "imagens/",
+    "image": "images/pato1.png",
     "class": "Character",
     "quantity": 1,
     "date": "01-01-2000"
@@ -82,7 +82,7 @@
   {
     "id": 11,
     "name": "Devil Duck",
-    "image": "imagens/",
+    "image": "images/pato1.png",
     "class": "Theme",
     "quantity": 1,
     "date": "01-01-2000"
@@ -90,7 +90,7 @@
   {
     "id": 12,
     "name": "Pink Among Us Duck",
-    "image": "imagens/",
+    "image": "images/pato1.png",
     "class": "Character",
     "quantity": 1,
     "date": "01-01-2000"
@@ -98,7 +98,7 @@
   {
     "id": 13,
     "name": "Yellow Among Us Duck",
-    "image": "imagens/",
+    "image": "images/pato1.png",
     "class": "Character",
     "quantity": 1,
     "date": "01-01-2000"
@@ -106,7 +106,7 @@
   {
     "id": 14,
     "name": "Cowboy Duck",
-    "image": "imagens/",
+    "image": "images/pato1.png",
     "class": "Professions & History",
     "quantity": 1,
     "date": "01-01-2000"
@@ -114,7 +114,7 @@
   {
     "id": 15,
     "name": "Cowgirl Duck",
-    "image": "imagens/",
+    "image": "images/pato1.png",
     "class": "Professions & History",
     "quantity": 1,
     "date": "01-01-2000"
@@ -122,7 +122,7 @@
   {
     "id": 16,
     "name": "Minecraft Steve Duck",
-    "image": "imagens/",
+    "image": "images/pato1.png",
     "class": "Character",
     "quantity": 1,
     "date": "01-01-2000"
@@ -130,7 +130,7 @@
   {
     "id": 17,
     "name": "Queen Elizabeth Duck",
-    "image": "imagens/",
+    "image": "images/pato1.png",
     "class": "Professions & History",
     "quantity": 1,
     "date": "01-01-2000"
@@ -138,7 +138,7 @@
   {
     "id": 18,
     "name": "Batman Duck",
-    "image": "imagens/",
+    "image": "images/pato1.png",
     "class": "Character",
     "quantity": 1,
     "date": "01-01-2000"
@@ -146,7 +146,7 @@
   {
     "id": 19,
     "name": "Knitted Duck",
-    "image": "imagens/",
+    "image": "images/pato1.png",
     "class": "Different Materials",
     "quantity": 1,
     "date": "01-01-2000"
@@ -154,7 +154,7 @@
   {
     "id": 20,
     "name": "Joker Duck",
-    "image": "imagens/",
+    "image": "images/pato1.png",
     "class": "Character",
     "quantity": 1,
     "date": "01-01-2000"
