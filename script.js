@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", main)
 
 async function main() {
-    const ducks=await fetchDucks()
+    const ducks = await fetchDucks()
     renderDucks(ducks)
 }
 
@@ -43,5 +43,26 @@ function createCard(duck) {
             <p>Acquired: ${duck.date}</p>
         </div>
     `
+
+    card.addEventListener("click", ()=>{
+        openModal(duck)
+    })
+
     return card
+}
+
+function openModal(duck){
+    const modal = document.getElementById("modal")
+
+    document.getElementById("modalImage").src = duck.image
+    document.getElementById("modalName").textContent = duck.name
+    document.getElementById("modalClass").textContent = duck.class
+    document.getElementById("modalQuantity").textContent = duck.quantity
+    document.getElementById("modalDate").textContent = duck.date
+    document.getElementById("modalDescription").textContent = duck.description || "No description available yet."
+
+    modal.showModal()
+
+    const closeModal = document.getElementById("closeModal")
+    closeModal.onclick=()=>modal.close()
 }

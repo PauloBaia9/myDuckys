@@ -5,7 +5,8 @@
     "image": "images/pato1.png",
     "class": "Classic",
     "quantity": 1,
-    "date": "01-01-2000"
+    "date": "01-01-2000",
+    "description": "Giant duck given by friends on my 22nd birthday."
   },
   {
     "id": 2,

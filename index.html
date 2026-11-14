@@ -8,7 +8,7 @@
 <body>
     <nav>
         <div class="logo">
-            <a href="index.html">🦆myDuckys</a>
+            <a href="index.html">myDuckys</a>
         </div>
         <div class="controls">
             <input type="text" id="searchbar" placeholder="Search for ducks">
@@ -18,12 +18,24 @@
     <main>
         <section class="hero">
             <h1>My Duck Collection</h1>
-            <p>alguma descrição tenho q pensar ainda</p>
+            <p>Just showing my collection to the world!</p>
         </section>
         <section class="catalog">
             <h2>Gallery</h2>
             <div id="catalogGrid"></div>
         </section>
+
+        <dialog id="modal">
+            <div class="modalContent">
+                <button id="closeModal">&times;</button>
+                <img id="modalImage">
+                <h2 id="modalName"></h2>
+                <p><strong>Class:</strong> <span id="modalClass"></span></p>
+                <p><strong>Quantity:</strong> <span id="modalQuantity"></span></p>
+                <p><strong>Acquired:</strong> <span id="modalDate"></span></p>
+                <p id="modalDescription"></p>
+            </div>
+        </dialog>
     </main>
     <footer>
 
