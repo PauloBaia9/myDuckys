@@ -2,8 +2,8 @@
   {
     "id": 1,
     "name": "Giant Duck",
-    "image": "images/pato1.png",
-    "class": "Classic",
+    "image": "images/giantDuck.webp",
+    "class": "Normal",
     "quantity": 1,
     "date": "01-01-2000",
     "description": "Giant duck given by friends on my 22nd birthday."
@@ -11,15 +11,15 @@
   {
     "id": 2,
     "name": "Hippie Couple Ducks",
-    "image": "images/pato1.png",
+    "image": "images/hippieCoupleDucks.webp",
     "class": "Activity",
     "quantity": 1,
     "date": "01-01-2000"
   },
   {
     "id": 3,
-    "name": "Car Duck",
-    "image": "images/pato1.png",
+    "name": "Duck Car",
+    "image": "images/duckCar.webp",
     "class": "Miscellaneous",
     "quantity": 1,
     "date": "01-01-2000"
@@ -27,7 +27,7 @@
   {
     "id": 4,
     "name": "Pink Love Duck",
-    "image": "images/pato1.png",
+    "image": "images/loveduck2.webp",
     "class": "Theme",
     "quantity": 2,
     "date": "01-01-2000"
@@ -35,7 +35,7 @@
   {
     "id": 5,
     "name": "Love Duck",
-    "image": "images/pato1.png",
+    "image": "images/loveDuck1.webp",
     "class": "Theme",
     "quantity": 1,
     "date": "01-01-2000"
@@ -43,7 +43,7 @@
   {
     "id": 6,
     "name": "Surfer Duck",
-    "image": "images/pato1.png",
+    "image": "images/surferDuck.webp",
     "class": "Activity",
     "quantity": 1,
     "date": "01-01-2000"
@@ -51,7 +51,7 @@
   {
     "id": 7,
     "name": "Porcelane Bundle Ducks",
-    "image": "images/pato1.png",
+    "image": "images/porcelaneDuckPack.webp",
     "class": "Different Materials",
     "quantity": 1,
     "date": "01-01-2000"
@@ -59,7 +59,7 @@
   {
     "id": 8,
     "name": "Greek Knight Duck",
-    "image": "images/pato1.png",
+    "image": "images/greekDuck.webp",
     "class": "Professions & History",
     "quantity": 1,
     "date": "01-01-2000"
@@ -67,7 +67,7 @@
   {
     "id": 9,
     "name": "Einstein Duck",
-    "image": "images/pato1.png",
+    "image": "images/EinsteinDuck.webp",
     "class": "Professions & History",
     "quantity": 1,
     "date": "01-01-2000"
@@ -75,7 +75,7 @@
   {
     "id": 10,
     "name": "Chainsaw Man Duck",
-    "image": "images/pato1.png",
+    "image": "images/chainsawManDuck.webp",
     "class": "Character",
     "quantity": 1,
     "date": "01-01-2000"
@@ -83,23 +83,23 @@
   {
     "id": 11,
     "name": "Devil Duck",
-    "image": "images/pato1.png",
+    "image": "images/devilDuck.webp",
     "class": "Theme",
     "quantity": 1,
     "date": "01-01-2000"
   },
   {
     "id": 12,
-    "name": "Pink Among Us Duck",
-    "image": "images/pato1.png",
+    "name": "Pink AmongUs Duck",
+    "image": "images/pinkAmongUsDuck.webp",
     "class": "Character",
     "quantity": 1,
     "date": "01-01-2000"
   },
   {
     "id": 13,
-    "name": "Yellow Among Us Duck",
-    "image": "images/pato1.png",
+    "name": "Yellow AmongUs Duck",
+    "image": "images/yellowAmongUsDuck.webp",
     "class": "Character",
     "quantity": 1,
     "date": "01-01-2000"
@@ -107,7 +107,7 @@
   {
     "id": 14,
     "name": "Cowboy Duck",
-    "image": "images/pato1.png",
+    "image": "images/cowboyDuck.webp",
     "class": "Professions & History",
     "quantity": 1,
     "date": "01-01-2000"
@@ -115,7 +115,7 @@
   {
     "id": 15,
     "name": "Cowgirl Duck",
-    "image": "images/pato1.png",
+    "image": "images/cowgirlDuck.webp",
     "class": "Professions & History",
     "quantity": 1,
     "date": "01-01-2000"
@@ -123,7 +123,7 @@
   {
     "id": 16,
     "name": "Minecraft Steve Duck",
-    "image": "images/pato1.png",
+    "image": "images/minecraftSteveDuck.webp",
     "class": "Character",
     "quantity": 1,
     "date": "01-01-2000"
@@ -131,7 +131,7 @@
   {
     "id": 17,
     "name": "Queen Elizabeth Duck",
-    "image": "images/pato1.png",
+    "image": "images/queenElizabethDuck.webp",
     "class": "Professions & History",
     "quantity": 1,
     "date": "01-01-2000"
@@ -139,7 +139,7 @@
   {
     "id": 18,
     "name": "Batman Duck",
-    "image": "images/pato1.png",
+    "image": "images/batmanDuck.webp",
     "class": "Character",
     "quantity": 1,
     "date": "01-01-2000"
@@ -147,7 +147,7 @@
   {
     "id": 19,
     "name": "Knitted Duck",
-    "image": "images/pato1.png",
+    "image": "images/crocheDuck.webp",
     "class": "Different Materials",
     "quantity": 1,
     "date": "01-01-2000"
@@ -155,8 +155,224 @@
   {
     "id": 20,
     "name": "Joker Duck",
-    "image": "images/pato1.png",
+    "image": "images/jokerDuck.webp",
     "class": "Character",
+    "quantity": 1,
+    "date": "01-01-2000"
+  },
+  {
+    "id": 21,
+    "name": "Bosch Duck",
+    "image": "images/boschDuck.webp",
+    "class": "Company",
+    "quantity": 1,
+    "date": "01-01-2000"
+  },
+  {
+    "id": 22,
+    "name": "Bubble Maker Duck",
+    "image": "images/bubbleMakerDuck.webp",
+    "class": "Miscellaneous",
+    "quantity": 1,
+    "date": "01-01-2000"
+  },
+  {
+    "id": 23,
+    "name": "Critical Software Duck",
+    "image": "images/criticalDuck.webp",
+    "class": "Company",
+    "quantity": 1,
+    "date": "01-01-2000"
+  },
+  {
+    "id": 24,
+    "name": "Duck Keychain",
+    "image": "images/duckKeychain.webp",
+    "class": "Keychain",
+    "quantity": 1,
+    "date": "01-01-2000"
+  },
+  {
+    "id": 25,
+    "name": "Duck Plushie",
+    "image": "images/duckPlushie.webp",
+    "class": "Miscellaneous",
+    "quantity": 1,
+    "date": "01-01-2000"
+  },
+  {
+    "id": 26,
+    "name": "Dwayne, the Duck Johnson",
+    "image": "images/dwayneTheDuckJohnson.webp",
+    "class": "Miscellaneous",
+    "quantity": 1,
+    "date": "01-01-2000"
+  },
+  {
+    "id": 27,
+    "name": "Father and Ducklings",
+    "image": "images/fatherDuckAndDucklings.webp",
+    "class": "Normal",
+    "quantity": 1,
+    "date": "01-01-2000"
+  },
+  {
+    "id": 28,
+    "name": "FCTUC Duck",
+    "image": "images/fctucDuck.webp",
+    "class": "Company",
+    "quantity": 1,
+    "date": "01-01-2000"
+  },
+  {
+    "id": 29,
+    "name": "Flying Helmet Duck Pin",
+    "image": "images/flyingHelmetDuckPin.webp",
+    "class": "Miscellaneous",
+    "quantity": 1,
+    "date": "01-01-2000"
+  },
+  {
+    "id": 30,
+    "name": "Green Duck",
+    "image": "images/greenDuck.webp",
+    "class": "Miscellaneous",
+    "quantity": 1,
+    "date": "01-01-2000"
+  },
+  {
+    "id": 31,
+    "name": "Innowave Duck",
+    "image": "images/innowaveDuck.webp",
+    "class": "Company",
+    "quantity": 1,
+    "date": "01-01-2000"
+  },
+  {
+    "id": 32,
+    "name": "Item Holder Duck",
+    "image": "images/itemHolderDuck.webp",
+    "class": "Miscellaneous",
+    "quantity": 1,
+    "date": "01-01-2000"
+  },
+  {
+    "id": 33,
+    "name": "Kissing Ducks Keychain",
+    "image": "images/kissingDucksKeychain.webp",
+    "class": "Keychain",
+    "quantity": 1,
+    "date": "01-01-2000"
+  },
+  {
+    "id": 34,
+    "name": "Tiny Duck",
+    "image": "images/tinyDuck.webp",
+    "class": "Normal",
+    "quantity": 1,
+    "date": "01-01-2000"
+  },
+  {
+    "id": 35,
+    "name": "Wood Toy Duck",
+    "image": "images/woodToyDuck.webp",
+    "class": "Miscellaneous",
+    "quantity": 1,
+    "date": "01-01-2000"
+  },
+  {
+    "id": 36,
+    "name": "Mother and Ducklings",
+    "image": "images/motherDuckAndDucklings.webp",
+    "class": "Normal",
+    "quantity": 1,
+    "date": "01-01-2000"
+  },
+  {
+    "id": 37,
+    "name": "Movable Duck",
+    "image": "images/movableDuck.webp",
+    "class": "Miscellaneous",
+    "quantity": 1,
+    "date": "01-01-2000"
+  },
+  {
+    "id": 38,
+    "name": "Normal Duck 1",
+    "image": "images/normalDuck1.webp",
+    "class": "Normal",
+    "quantity": 3,
+    "date": "01-01-2000"
+  },
+  {
+    "id": 39,
+    "name": "Normal Duck 2",
+    "image": "images/normalDuck2.webp",
+    "class": "Normal",
+    "quantity": 3,
+    "date": "01-01-2000"
+  },
+  {
+    "id": 40,
+    "name": "Normal Duck 3",
+    "image": "images/normalDuck3.webp",
+    "class": "Normal",
+    "quantity": 3,
+    "date": "01-01-2000"
+  },
+  {
+    "id": 41,
+    "name": "Paper Duck",
+    "image": "images/paperDuck.webp",
+    "class": "Different Materials",
+    "quantity": 1,
+    "date": "01-01-2000"
+  },
+  {
+    "id": 42,
+    "name": "Pencil Topper Duck",
+    "image": "images/pencilTopperDuck.webp",
+    "class": "Miscellaneous",
+    "quantity": 1,
+    "date": "01-01-2000"
+  },
+  {
+    "id": 43,
+    "name": "Plastic Duck",
+    "image": "images/plasticDuck.webp",
+    "class": "Different Materials",
+    "quantity": 6,
+    "date": "01-01-2000"
+  },
+  {
+    "id": 44,
+    "name": "Redlight Duck",
+    "image": "images/redlightDuck.webp",
+    "class": "Company",
+    "quantity": 3,
+    "date": "01-01-2000"
+  },
+  {
+    "id": 45,
+    "name": "Shark Duck",
+    "image": "images/sharkDuck.webp",
+    "class": "Theme",
+    "quantity": 1,
+    "date": "01-01-2000"
+  },
+  {
+    "id": 46,
+    "name": "Silver Duck Keychain",
+    "image": "images/silverDuckKeychain.webp",
+    "class": "Keychain",
+    "quantity": 1,
+    "date": "01-01-2000"
+  },
+  {
+    "id": 47,
+    "name": "Soap Duck",
+    "image": "images/soapDuck.webp",
+    "class": "Different Materials",
     "quantity": 1,
     "date": "01-01-2000"
   }
