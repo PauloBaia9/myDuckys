@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", main)
 async function main() {
     const ducks = await fetchDucks()
     renderDucks(ducks)
+    search(ducks)
 }
 
 async function fetchDucks() {
@@ -40,18 +41,17 @@ function createCard(duck) {
             <h3>${duck.name}</h3>
             <p>Class: ${duck.class}</p>
             <p>Quantity: ${duck.quantity}</p>
-            <p>Acquired: ${duck.date}</p>
         </div>
     `
 
-    card.addEventListener("click", ()=>{
+    card.addEventListener("click", () => {
         openModal(duck)
     })
 
     return card
 }
 
-function openModal(duck){
+function openModal(duck) {
     const modal = document.getElementById("modal")
 
     document.getElementById("modalImage").src = duck.image
@@ -64,5 +64,18 @@ function openModal(duck){
     modal.showModal()
 
     const closeModal = document.getElementById("closeModal")
-    closeModal.onclick=()=>modal.close()
+    closeModal.onclick = () => modal.close()
+}
+
+function search(ducks) {
+    const searchbar = document.getElementById("searchbar")
+
+    searchbar.addEventListener("input", (searching) => {
+        const query = searching.target.value.toLowerCase()
+
+        const filtered = ducks.filter(duck =>
+            duck.name.toLowerCase().includes(query) || duck.class.toLowerCase().includes(query)
+        )
+        renderDucks(filtered)
+    })
 }
