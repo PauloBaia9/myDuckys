@@ -1,9 +1,13 @@
 document.addEventListener("DOMContentLoaded", main)
 
+const duckRainButton = document.getElementById("duckRain")
+
 async function main() {
     const ducks = await fetchDucks()
     renderDucks(ducks)
     search(ducks)
+
+    duckRainButton.addEventListener("click", () => { duckRain(ducks) })
 }
 
 async function fetchDucks() {
@@ -78,4 +82,29 @@ function search(ducks) {
         )
         renderDucks(filtered)
     })
+}
+
+function duckRain(ducks) {
+    let imagesList = []
+    for (let i = 0; i < ducks.length; i++) {
+        imagesList.push(ducks[i].image)
+    }
+
+    for (let i = 0; i < ducks.length; i++) {
+        setTimeout(function(){
+            let duckImage=document.createElement("img")
+            duckImage.src=imagesList[i]
+
+            duckImage.classList.add("rain")
+
+            let Xcord=Math.random()*window.innerWidth
+            duckImage.style.left=Xcord+"px"
+
+            document.body.appendChild(duckImage)
+
+            setTimeout(function(){
+                duckImage.remove()
+            }, 5000)
+        },i*200)
+    }
 }

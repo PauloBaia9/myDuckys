@@ -66,6 +66,23 @@ nav .logo a {
     background-color: orange;
 }
 
+.rain{
+    position: fixed;
+    top: -100px;
+    animation: rain 4s linear forwards;
+    width: 50px;
+    height: 50px;
+}
+
+@keyframes rain{
+    0%{
+        transform: translateY(0) rotate(0);
+    }
+    100%{
+        transform: translateY(120vh) rotate(720deg);
+    }
+}
+
 main {
     max-width: 1500px;
     margin: 0;
