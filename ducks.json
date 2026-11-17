@@ -27,7 +27,7 @@
   {
     "id": 4,
     "name": "Pink Love Duck",
-    "image": "images/loveduck2.webp",
+    "image": "images/loveDuck2.webp",
     "class": "Theme",
     "quantity": 2,
     "date": "01-01-2000"
