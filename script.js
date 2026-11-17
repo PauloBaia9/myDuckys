@@ -8,6 +8,8 @@ async function main() {
     search(ducks)
 
     duckRainButton.addEventListener("click", () => { duckRain(ducks) })
+
+    uselessFact()
 }
 
 async function fetchDucks() {
@@ -38,7 +40,7 @@ function renderDucks(ducks) {
 
 function createCard(duck) {
     const card = document.createElement("div")
-    card.classList.add("card")      //MAYBE ADICIONAR UMA IMAGEM DE ERRO PARA SE A IMAGEM NAO CARREGAR
+    card.classList.add("card")
     card.innerHTML = `
         <img src="${duck.image}">
         <div class="duckInfo">
@@ -63,7 +65,7 @@ function openModal(duck) {
     document.getElementById("modalClass").textContent = duck.class
     document.getElementById("modalQuantity").textContent = duck.quantity
     document.getElementById("modalDate").textContent = duck.date
-    document.getElementById("modalDescription").textContent = duck.description || "No description available yet."
+    document.getElementById("modalDescription").textContent = duck.description || "No description for this ducky :("
 
     modal.showModal()
 
@@ -91,20 +93,33 @@ function duckRain(ducks) {
     }
 
     for (let i = 0; i < ducks.length; i++) {
-        setTimeout(function(){
-            let duckImage=document.createElement("img")
-            duckImage.src=imagesList[i]
+        setTimeout(function () {
+            let duckImage = document.createElement("img")
+            duckImage.src = imagesList[i]
 
             duckImage.classList.add("rain")
 
-            let Xcord=Math.random()*window.innerWidth
-            duckImage.style.left=Xcord+"px"
+            let Xcord = Math.random() * window.innerWidth
+            duckImage.style.left = Xcord + "px"
 
             document.body.appendChild(duckImage)
 
-            setTimeout(function(){
+            setTimeout(function () {
                 duckImage.remove()
             }, 5000)
-        },i*200)
+        }, i * 200)
+    }
+}
+
+async function uselessFact() {
+    try {
+        const response = await fetch('https://uselessfacts.jsph.pl/api/v2/facts/random');
+        const data = await response.json();
+
+        if (data && data.text) {
+            document.getElementById("uselessFact").textContent = "Random Useless Fact: " + data.text;
+        }
+    } catch (error) {
+        console.error("There is nothing here :(", error);
     }
 }
